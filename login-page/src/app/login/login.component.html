@@ -3,16 +3,16 @@
 <form formgroup="loginForm" ngSubmit="onSubmit(loginForm.value)">
     <div>
         <label>Username</label>
-        <input formControlName="name" placeholder="username">
+        <input formControlName="username" placeholder="username" type="text">
     </div>
     <div>
         <label>Password</label>
-        <input formControlName="password" placeholder="pasword">
+        <input formControlName="password" placeholder="pasword" type="password">
     </div>
     <div>
-        <button class="button" type="submit">
+        <button class="btn btn-primary" type="submit">
             Login
         </button>
-        <a>Register</a>
+        <a class="btn btn-link">Register</a>
     </div>
 </form>
